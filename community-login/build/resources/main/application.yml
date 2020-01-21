@@ -1,0 +1,25 @@
+#登录模块
+server:
+  port: 8887
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/postgres?userUnicode=true&characterEncoding=UTF-8
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgresql123
+
+  redis:
+    host: 127.0.0.1
+    database: 2
+    port: 6379
+    timeout: 3000
+
+
+  session:
+    store-type: redis
+
+
+

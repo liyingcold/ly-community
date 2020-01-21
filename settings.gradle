@@ -1,0 +1,4 @@
+rootProject.name = 'ly-community'
+include 'community-main'
+include 'community-login'
+
