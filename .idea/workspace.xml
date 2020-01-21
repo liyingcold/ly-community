@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dbd7fa2-c0e6-4ffd-aa00-82b55a7b49ab" name="Default Changelist" comment="" />
+    <list default="true" id="7dbd7fa2-c0e6-4ffd-aa00-82b55a7b49ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/RedisCacheUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/config/Config_.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/config/Config_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/build/classes/java/main/com/ly/login/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/config/Config_.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/config/Config_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +127,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -115,6 +140,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VVaZELxM6Dr2EKnRaT3jjgrAZy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -125,6 +151,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -229,7 +256,7 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.21893491" />
+        <option name="contentProportion" value="0.077598825" />
         <treeState>
           <expand>
             <path>
@@ -239,7 +266,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ea1c85ae" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@20b0304b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@575211c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -273,14 +300,54 @@
       <workItem from="1579138036213" duration="19189000" />
       <workItem from="1579223827952" duration="11104000" />
       <workItem from="1579482329237" duration="9976000" />
-      <workItem from="1579572407196" duration="6976000" />
+      <workItem from="1579572407196" duration="11574000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="images" />

@@ -2,6 +2,7 @@ package com.ly.login.interceptor;
 
 import com.ly.login.common.ServerResponse;
 import com.ly.login.dao.UserMapper;
+import com.ly.login.pojo.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -32,15 +33,19 @@ public class LoginInterceptor implements HandlerInterceptor {
  * 如果没有登录过就进行登录，拦截需要登录的界面
 */
         Cookie[] cookies=request.getCookies();
+        String name = request.getParameter("username");
+        String sessionId = (String) redisTemplate.opsForValue().get(name);
         if (cookies != null && cookies.length !=0){
             for (Cookie cookie : cookies) {
                 if (cookie.getName().equals("token")){
                     String token=cookie.getValue();
-                    String sessionId = (String) redisTemplate.opsForValue().get("sessionId");
+                    if (token.equals(sessionId)){
+                        return false;
+                    }
                 }
             }
         }
-        return false;
+        return true;
     }
 
     @Override

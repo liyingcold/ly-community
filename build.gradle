@@ -47,6 +47,7 @@ subprojects {
         compile 'org.springframework.session:spring-session-data-redis'
 //        commons
         compile 'org.apache.commons:commons-lang3:3.8.1'
+        compile 'org.apache.commons:commons-pool2:2.4.2'
 //        pg
         runtimeOnly 'org.postgresql:postgresql'
 //        注解器所在的包
