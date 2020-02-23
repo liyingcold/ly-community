@@ -19,7 +19,9 @@ public class Config_  implements WebMvcConfigurer {
 //        注册拦截器到SpringMVC机制，返回一个拦截器注册
 //        拦截所有登录注册请求
         registry.addInterceptor(loginInterceptor)
-                .addPathPatterns("/user/*");
+                .addPathPatterns("/user/login");
+//                .addPathPatterns("/**")
+//                .excludePathPatterns("/user","/bing");
 
     }
 }
