@@ -35,7 +35,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         log.info(String.valueOf(request.getSession().getId()));
 /**
  * 如果登录过了，redis里面有sessionId,可不用登陆
- * 如果没有登录过就进行登录，拦截需要登录的界面，而不是登陆界面
+ * 如果没有登录过就进行登录，拦截需要登录的接口，而不是登陆接口
 */
         String token=cookieUtil.getLoginToken(request);
         log.info(token);

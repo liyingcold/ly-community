@@ -9,14 +9,11 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor//无参构造
 @AllArgsConstructor//全参构造
 @Accessors(chain = true)//链式调用
-public class User {
+public class UserInfo {
     private Integer id;
-    private String name;
-    private String password;
     private String account_id;
-    private Long gmt_create;
-    private Long gmt_modified;
-
-
-
+    private String sex;
+    private Long birth;
+    private String email;
+    private String signature;
 }

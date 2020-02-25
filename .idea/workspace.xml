@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b275a16-33a8-429b-a8e8-17602716dfda" name="Default Changelist" comment="添加redis缓存，实现登陆持久化">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5b275a16-33a8-429b-a8e8-17602716dfda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/pojo/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/common/TokenCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/config/Config_.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/config/Config_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/RedisCacheUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/RedisCacheUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-login/src/main/java/com/ly/login/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-main/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/community-main/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +87,8 @@
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pg_community_user_info: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -193,7 +181,22 @@
       <serviceView>
         <option name="contentProportion" value="0.16025642" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ca857b2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ca857b2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@61779ae7" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ca857b2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@66209284" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -236,8 +239,18 @@
       <workItem from="1580982306840" duration="3609000" />
       <workItem from="1581917193047" duration="632000" />
       <workItem from="1582452499025" duration="40000" />
-      <workItem from="1582454924994" duration="490000" />
+      <workItem from="1582454924994" duration="1029000" />
+      <workItem from="1582539663512" duration="14000" />
+      <workItem from="1582540029026" duration="9377000" />
     </task>
+    <task id="LOCAL-00001" summary="添加redis缓存，实现登陆持久化">
+      <created>1582455583969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582455583969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,16 +285,6 @@
           <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/RedisCacheUtil.java</url>
           <line>65</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/CookieUtil.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/CookieUtil.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/community-login/src/main/java/com/ly/login/util/RedisCacheUtil.java</url>

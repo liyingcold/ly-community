@@ -27,14 +27,7 @@ import java.util.UUID;
 public class LoginController {
 
     @Autowired
-    private StringRedisTemplate stringRedisTemplate;
-
-    @Autowired
-    private RedisTemplate<String ,Object> redisTemplate;
-
-    @Autowired
     private UserService userService;
-
 
     @Resource
     private RedisCacheUtil redisCacheUtil;
@@ -43,17 +36,13 @@ public class LoginController {
     private CookieUtil cookieUtil;
 
 
-
     /**
      * 查看
      */
     @GetMapping("/findAll")
     public ServerResponse<List<User>> getAllUserInfo(){
-
         return userService.findAll();
     }
-
-
 
     /**
      * 登录
@@ -71,14 +60,18 @@ public class LoginController {
         return response;
     }
 
+    /**
+     * 退出登录
+     * 退出时删除cookie和redis中的token
+     */
     @PostMapping("/logout")
     public ServerResponse<String> logout(String name,HttpServletRequest request,HttpServletResponse response){
         String token=cookieUtil.getLoginToken(request);
-
         cookieUtil.delLoginToken(request,response);
         redisCacheUtil.delCacheKey(token);
         return ServerResponse.createBySuccess();
     }
+
     /**
      * 注册
      * @param user
@@ -87,8 +80,25 @@ public class LoginController {
     @PostMapping("/register")
     public ServerResponse<String> register( User user){
         return userService.register(user);
-
     }
+
+    /**
+     * 修改密码
+     *
+     */
+    @PostMapping("/changePasw")
+    public ServerResponse<String> changePassword(User user){
+        return  userService.changePasw(user);
+    }
+
+    /**
+     * 修改个人信息
+     */
+    public ServerResponse<String> changeUserInfo(User user){
+        return null;
+    }
+
+
 
 
 
